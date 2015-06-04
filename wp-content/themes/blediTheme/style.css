@@ -1,0 +1,432 @@
+/*
+Theme Name: blediTheme
+Author: bledar haxhia
+Author URI: https://bledarhaxhia.tk
+Description: teme e krijuar per detyre kursi
+Version: 1.0
+*/
+@import url("./font/flaticon.css");
+
+html body {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 1em;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 2em;
+    background-color: #bdc3c7;
+
+}
+/* unvisited link */
+a:link,a:visited,a:hover, a:active{
+    color: #F2f2f2;
+}
+header{
+    top:10px;
+    max-width: 800px;
+    margin: auto;
+    background-image: url('../image/logo.jpg');
+    background-position: 0px 5px; 
+    background-size: 170px;
+    background-repeat:no-repeat;
+    background-color: #16a085;
+    color: #bdc3c7;
+    padding: 20px;
+    font-size: 1.75em;
+    font-weight: 100;
+}
+header h1{
+    text-align: center;
+ 
+}
+header h1 span{
+    display: none;
+    float: left;
+
+}
+article{
+    overflow: auto;
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ecf0f1;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+nav{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #bdc3c7;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    overflow: hidden;
+    display: block;
+}
+
+nav:hover{
+
+    background-color:  #34495e;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+
+}
+nav h2 {
+    text-align: center;
+    color: #bdc3c7;
+    margin-top: 100px;
+    display: block;
+    white-space: nowrap;
+}
+nav a:hover,nav a:visited,nav a:link,nav a:active
+{
+    color: #bdc3c7;
+    text-decoration: none;
+}
+.menu{
+    overflow: hidden;
+    background-color: #2c3e50;
+    height: auto;
+}
+.menu ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:  #34495e;
+}
+.menu > ul > li{
+    margin-bottom: 3px;
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    border-left: solid #16a085 2px;
+    white-space: nowrap;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    font-size: 1.7em;
+    height: auto;
+    overflow: hidden;
+
+}
+.menu span{
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.menu >ul >li:hover{
+    background-color: #1C2B3A;
+    border-left: solid #16a085 7px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.menu >ul >li >ul >li{
+    font-size: .5em;
+    margin: 0px;
+    background-color: #1C2B3A;
+    color: #bdc3c7;
+    border-left: solid #16a085 2px;
+    white-space: nowrap;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    height: auto;
+    line-height: 0px;
+    top: -40px;
+    position: relative;
+    padding: 0px;
+}
+
+.menu ul li.current-menu-item {
+   background-color: #1C2B3A;
+    border-left: solid #16a085 10px;
+}
+
+.menu ul >li:hover >ul >li{
+    top:0px;
+    margin-bottom: 1px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    height: auto;
+    line-height:2em;
+    padding: 5px;
+    padding-left: 60px;
+}
+.menu ul >li >ul >li:hover{
+      background-color: #16a085;
+      transition: all .2s;
+      -webkit-transition: all .2s;
+}
+.menu a{
+	color:#fff;
+	text-decoration: none;
+}
+
+
+nav:hover{
+
+    background-color:  #34495e;
+    width: 300px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+i._mi {
+    margin: 0px 12px;
+}
+
+iframe.pdf{
+    height: 600px;
+    width:100%;
+}
+.social{
+   position: fixed;
+   right: 0;
+   z-index: 10;
+   top: 200px;
+}
+.social ul{
+    list-style: none;
+    text-align: right;
+}
+.social ul li a {
+        display: inline-block;
+        font-size: 1.2em;
+        color:#fff;
+        padding: 10px;
+        padding-left: 10px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease;
+    }
+    .social ul li a:hover {
+        background: #000;
+       padding:10px 30px 10px 30px;
+    }
+.flaticon-facebook29{
+    background-color: #3B5997;
+}
+.flaticon-social5{
+background-color: #D84B39;
+}
+.flaticon-social38{
+    background-color: #29C5F6;
+}
+.flaticon-youtube7{
+    background-color: #BD2522;
+}
+.flaticon-instagram12{
+    background-color: #483E34;
+}
+.flaticon-linkedin12{
+    background-color: #1F65A0;
+}
+/*======================================================*/
+/*                   Mobile website                    */
+/*======================================================*/
+@media screen and (max-width:820px) {
+
+body {
+    margin: 0em;
+    background-color: #bdc3c7;
+}
+header{
+    position: fixed;
+    width:100%;
+    background-image: url('../image/logo.jpg');
+    background-size: 35px;
+    background-position: 30px 5px; 
+    background-repeat:no-repeat;
+    background-color: #16a085;
+    text-align: center;
+    color: #bdc3c7;
+    padding: 5px;
+    margin: 0px;
+    font-size: .7em;
+    font-weight: 100;
+    display: block;
+    z-index: 11;
+    overflow:hidden;
+    top:0px;
+
+}
+
+header h1{
+    padding: 0;
+    margin: 0;
+}
+header h1 span{
+    display: block;
+   float:left;
+}
+
+#logo{
+    float: right;
+    height: 30px;
+}
+.njoftim{
+    font-size: .7em;
+
+}
+ .FotoGalleryBg{
+ margin: 10px 0px;
+}
+
+.FotoGallery img{
+    width: 275px;
+    min-height: 275px;
+}
+
+#shigjetatitullit{
+display:none;
+
+}
+.content{
+    margin-top:50px;
+    overflow: hidden;
+}
+.content iframe{
+    width: auto;
+}
+
+nav{
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: -180px;
+    width: 180px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:  #34495e;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    overflow: hidden;
+    display: block;
+}
+nav:hover{
+
+width:180px;
+}
+nav h2{
+    text-align: center;
+    color: #bdc3c7;
+    margin-top: 50px;
+    display: block;
+    white-space: nowrap;
+}
+
+
+article{
+    margin:20px auto;
+    max-width:600px;
+    width: 90%;
+}
+
+.menu{
+    overflow: hidden;
+    background-color: #2c3e50;
+    height: auto;
+}
+.menu ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:  #34495e;
+}
+.menu ul li{
+    width: 180px;
+    margin-bottom: 3px;
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    border-left: solid #16a085 2px;
+    white-space: nowrap;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    font-size: 1.0em;
+    height: auto;
+    overflow: hidden;
+
+}
+.menu span{
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+
+.menu ul li:hover{
+    background-color: #1C2B3A;
+    border-left: solid #16a085 7px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.menu  ul li ul{
+display:none;
+
+}
+
+
+
+.menu >ul >li >ul >li{
+    font-size: .7em;
+    line-height: 2em;
+    top:0px;
+    position: relative;
+    padding: 5px;
+    text-align: center;
+}
+.menu ul >li:hover >ul >li{
+    top:0px;
+    margin-bottom: 1px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    padding: 5px;
+    padding-left: 0px;
+}
+.menu ul >li >ul >li:hover{
+      background-color: #16a085;
+      transition: all .2s;
+      -webkit-transition: all .2s;
+}
+
+.social{
+   position:static;
+   z-index: 10;
+   margin:auto;
+}
+.social ul{
+    list-style: none;
+    text-align: center;
+}
+.social ul li{
+    display: inline;
+}
+.social ul li a {
+        font-size: 1.2em;
+        color:#fff;
+        padding: 10px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease;
+    }
+    .social ul li a:hover {
+       background: #000;
+      padding: 10px;
+       padding-left: 10px;
+    }
+}
